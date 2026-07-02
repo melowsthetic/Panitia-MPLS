@@ -74,12 +74,12 @@ rotate(${rotation}deg)
 function autoFit(){
 
     // ukuran area foto pada twibbon
-    const frameWidth = editor.clientWidth * 0.495;
-    const frameHeight = editor.clientHeight * 0.495;
+const frameWidth = editor.clientWidth * 0.49;
+const frameHeight = editor.clientHeight * 0.49;
 
-    // posisi tengah area foto
-    const frameCenterX = editor.clientWidth * 0.375;
-    const frameCenterY = editor.clientHeight * 0.505;
+// posisi tengah area foto (PANITIA)
+const frameCenterX = editor.clientWidth * 0.58;
+const frameCenterY = editor.clientHeight * 0.50;
 
     // hitung skala supaya foto memenuhi area
     scale = Math.max(
@@ -347,10 +347,13 @@ downloadBtn.addEventListener("click", function(){
 copyBtn.addEventListener("click", async function () {
 
 const caption = `🎉 HALO, CALON ADIK-ADIK HEBAT! 🎉
-Dengan bangga saya menjadi bagian dari Panitia MPLS Ramah 2026 di SMP Negeri 27.🤝 Siap menyambut dengan ramah.
+Dengan bangga saya menjadi bagian dari Panitia MPLS Ramah 2026 di SMP Negeri 27.
+.
+🤝 Siap menyambut dengan ramah.
 📚 Siap berbagi pengalaman.
 🌟 Siap mendampingi setiap langkah.
 💙 Siap menciptakan lingkungan belajar yang aman, nyaman, menyenangkan, dan bebas perundungan.Mari bersama wujudkan MPLS Ramah 2026 yang penuh semangat, kebersamaan, dan inspirasi.
+.
 .💙 SMP Negeri 27
 📖 Unggul dalam Adab dan Ilmu.
 .
