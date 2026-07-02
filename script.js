@@ -78,7 +78,7 @@ const frameWidth = editor.clientWidth * 0.49;
 const frameHeight = editor.clientHeight * 0.49;
 
 // posisi tengah area foto (PANITIA)
-const frameCenterX = editor.clientWidth * 0.58;
+const frameCenterX = editor.clientWidth * 0.56;
 const frameCenterY = editor.clientHeight * 0.50;
 
     // hitung skala supaya foto memenuhi area
@@ -218,7 +218,7 @@ zoomOut.addEventListener("click",()=>{
 
 scale -= 0.05;
 
-if(scale<0.15) scale=0.15;
+if(scale<0.05) scale=0.05;
 
 updateTransform();
 
