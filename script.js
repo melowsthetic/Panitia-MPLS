@@ -346,7 +346,7 @@ downloadBtn.addEventListener("click", function(){
 
 copyBtn.addEventListener("click", async function () {
 
-const caption = `🎉 HALO, CALON ADIK-ADIK HEBAT! 🎉
+const caption = `🎉 HALO, ADIK-ADIK SMP 27🎉
 Dengan bangga saya menjadi bagian dari Panitia MPLS Ramah 2026 di SMP Negeri 27.
 .
 🤝 Siap menyambut dengan ramah.
